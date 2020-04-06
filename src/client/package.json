@@ -6,12 +6,20 @@
   "scripts": {
     "start": "",
     "watch": "cross-env NODE_ENV=\"development\" webpack-dev-server",
-    "build": "cross-env NODE_ENV=\"production\" webpack"
+    "build": "cross-env NODE_ENV=\"production\" webpack",
+    "codegen": "apollo client:codegen --target typescript --watch"
   },
   "dependencies": {
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-link-error": "^1.1.12",
+    "apollo-link-http": "^1.5.16",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3",
     "pixi.js": "^5.2.1"
   },
   "devDependencies": {
+    "apollo": "^2.25.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "cross-env": "^7.0.0",

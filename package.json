@@ -12,8 +12,15 @@
     "install:server": "yarn install"
   },
   "devDependencies": {
+    "apollo": "^2.25.0",
     "copy-webpack-plugin": "^5.1.1",
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false
   }
 }

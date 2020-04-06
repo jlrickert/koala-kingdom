@@ -6,8 +6,8 @@
 
     "lib": [
       "dom",
-      "dom.iterable",
-      "esnext"
+      // "dom.iterable",
+      // "esnext"
     ],
     "allowJs": true,
     // "allowSyntheticDefaultImports": true,

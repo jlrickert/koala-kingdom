@@ -1,0 +1,13 @@
+type Query {
+    me: User
+    players: [User]
+}
+
+type Mutation {
+    lauch(nickname: String): User
+}
+
+type User {
+    id: ID!
+    nickname: String!
+}

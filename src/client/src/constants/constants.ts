@@ -19,22 +19,22 @@ export enum CharacterMode {
     Idle,
 }
 
-export const Scene = {
+export const scene = {
     Width: 1280,
     Height: 578,
 };
 
-export const Textures = {
+export const textureMap = {
     Character: "assets/character/adventurer.json",
 };
 
-export const KeyCodes = {
-    Space: "Space",
-    ArrowUp: "ArrowUp",
-    ArrowDown: "ArrowDown",
-    ArrowLeft: "ArrowLeft",
-    ArrowRight: "ArrowRight",
-};
+export enum KeyCodes {
+    Space = "Space",
+    ArrowUp = "ArrowUp",
+    ArrowDown = "ArrowDown",
+    ArrowLeft = "ArrowLeft",
+    ArrowRight = "ArrowRight",
+}
 
 export const World = {
     Character: {
